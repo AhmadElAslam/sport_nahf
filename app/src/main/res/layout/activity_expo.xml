@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".expo">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageView
+            android:id="@+id/imageView124"
+            android:layout_width="match_parent"
+            android:layout_height="223dp"
+            app:srcCompat="@drawable/expo" />
+
+        <TextView
+            android:id="@+id/textView126"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="EXPO"
+            android:textColor="#CD4040"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView130"
+            android:layout_width="match_parent"
+            android:layout_height="354dp"
+            android:text='תנועה אליפטית רציפה למניעת נזקי ברכיים, קרסוליים וגב .\n גלגל תנופה גדול עם מייסבים איכותיים .\n וסת התנגדות מגנטית ב-15 דרגות קושי .\n 3 מצבים לשינוי מקום הדוושות .\n 4 מצבים לשינוי אורך הצעד .\n ידיות מרופדות לאימון פלג גוף עליון .\n מד דופק מובנה בידיות המכשיר – לבקרת האימון .\n צג "הייטק" חדיש ומשוכלל בעל ספרות גדולות .\n תצוגת מהירות, מרחק, זמן, שריפת קלוריות ודופק \n נייד על גלגלים לאחסנה נוחה .\n מתאים למשתמשים עד 130 ק"ג .\n אחריות: 12 חודשים .\n\n מידות: \nאורך 120 ס"מ, רוחב 70 ס"מ , גובה 160 ס"מ.'
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView131"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="₪ 2,799"
+            android:textColor="#D62D2D"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

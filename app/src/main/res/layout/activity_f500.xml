@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".f500">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView159"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/f500" />
+
+            <ImageView
+                android:id="@+id/imageView161"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/f500c" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView185"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="F-500"
+            android:textColor="#DF3333"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView186"
+            android:layout_width="match_parent"
+            android:layout_height="388dp"
+            android:text='מולטי טריינר מקצועי באיכות חדר כושר רמת גימור מדהימה - כולל 100 ק"ג משקולות.\nמעבר קל בין תרגילים. \nריפודים עבים ונוחים. \nפטנט: ידיות מתכווננות המדמות עבודה בקרוס אובר. \nעשרות תרגילים: דחיקה,פרפר, משיכה עליונה ותחתונה, חתירה, כתפיים, בטן ועוד.\nמושב ומשענת מתכווננים. \nכריות תמיכה לרגליים בזמן תרגיל הפולי. \nמשקולות נעות חרישית בתוך כלוב מתכת בטיחותי. \nאביזרים נלווים: מוט פולי עליון,מוט פולי קצר, ידית פולי, רצועת קרסול, ורצועת אחיזה לבטן. \nחוברת תרגילים מצורפת.  \n\nמידות : אורך 180 ס"מ, רוחב 100 ס"מ, גובה 210 ס"מ.'
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView187"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="₪ 11,899"
+            android:textColor="#E12C2C"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

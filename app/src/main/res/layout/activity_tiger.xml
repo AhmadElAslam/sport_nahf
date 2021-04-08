@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tiger">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageView
+            android:id="@+id/imageView146"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            app:srcCompat="@drawable/tiger" />
+
+        <TextView
+            android:id="@+id/textView158"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Tiger"
+            android:textColor="#D53C3C"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView159"
+            android:layout_width="match_parent"
+            android:layout_height="359dp"
+            android:text='דגם מסיבי ואיכותי לעבודה מאוזנת ומושלמת על כל שרירי הגוף. \n כבלי פלדה עם ציפוי ניילון לעבודה שקטה וחלקה.  \n גלגלות אוקולון עם מיסבים משומנים. \n נוח ביותר להפעלה: שינוי המשקל באמצעות פין בודד.  \n 75 ק"ג משקולות הנעים חרישית על מוטות מצופי כרום-ניקל. \n פטנט:  מערכת משקולות עם ציפוי לעבודה חרישית.  \n ריפודים ארגונומיים עבים ונוחים מחומר מונע הזעה. \n זוג מוטות פרפר מרופדים לשרירי החזה עם אחיזה משולשת. \n משלב תרגילי דחיקה, פרפר, משיכה עליונה ותחתונה, חתירה ורגליים. \n כולל כרית לאימון יד קדמית. \nמעבר קל ומהיר בין התרגילים.  \n אביזרים: מוט פולי ארוך, מוט פולי קצר, רצועה לרגליים.  \n\n מידות : אורך 140 ס"מ, רוחב 100 ס"מ, גובה 205 ס"מ.'
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView160"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="₪ 2,199"
+            android:textColor="#DC3F3F"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

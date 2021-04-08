@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecordPro">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="157dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView94"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/recordpro1" />
+
+            <ImageView
+                android:id="@+id/imageView95"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/recordpro2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView96"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/recordpro3" />
+
+            <TextView
+                android:id="@+id/textView70"
+                android:layout_width="4dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text='מנוע שקט ורב עוצמה 7.5 כ"ס\n מהירות: 0-18 קמ"ש. \n שיפוע חשמלי קדמי: 0-15%. \n 6 בולמי זעזועים אלסטיים לכל אורך המסילה + 2 בולמי קונוס מהפכניים. \nצג LCD מואר, ענק ומשוכלל, המציע ממשק ידידותי לכל משתמש. \n רמקולים מובנים הכוללים ערכת חיבור לסמארטפונים. '
+                android:textColor="#000000"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView71"
+            android:layout_width="match_parent"
+            android:layout_height="316dp"
+            android:text="חיבורי USB ו- MP3 מובנים. \n מד אחוזי שומן BODY FAT ייחודי להערכת נתוני שומן גוף.  \n חיישני דופק בידיות המכשיר. \n לחצני שינוי מהירות ושיפוע בידיות המכשיר. \n מנגנון SOFT-DROP לריכוך נחיתת המשקל בעת פתיחת הקיפול. \n מדף מובנה על הצג להנחת טאבלט. \n ​מתקנים צדדיים מובנים להנחת בקבוק, טלפון, שלט, ספר וכו'... \n ניוד קל על 4 גלגלים. \n משקל משתמש מרבי: 130 ק&quot;ג. \n אחריות: שנה למכשיר, 10 שנים אחריות למנוע. \n \n מידות:  \n פתוח - אורך 177 ס&quot;מ, רוחב 87 ס&quot;מ, גובה 147 ס&quot;מ \n מקופל - אורך 117 ס&quot;מ, רוחב 87 ס&quot;מ, גובה 148 ס&quot;מ  \n מסילת ריצה ענקית באורך 140 ס&quot;מ וברוחב 51 ס&quot;מ"
+            android:textColor="#000000"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/textView106"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="₪ 5,999"
+            android:textColor="#D33636"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

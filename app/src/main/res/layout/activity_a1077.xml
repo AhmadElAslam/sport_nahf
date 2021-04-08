@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".a1077">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageView
+            android:id="@+id/imageView210"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:srcCompat="@drawable/a1077" />
+
+        <TextView
+            android:id="@+id/textView267"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="YORK 1077"
+            android:textColor="#E33131"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView268"
+            android:layout_width="match_parent"
+            android:layout_height="333dp"
+            android:text='ספה רב שימושית מסיבית מבית YORK FITNESS, ענק הכושר העולמי. \nהמושב מתכוונן לזוויות שונות.\nמתאים למשתמשים כבדים. \nמשענת גב מתכווננת למצבים: משיפוע שלילי ועד 90 מעלות. \nהספסל מתכוונן ע"י מוט מצופה ניקל. \nריפודים עבים מחומר מונע הזעה. \nמשענת הגב בעלת מבנה מיוחד השומר על חוליות השידרה. \nמתאימה לתרגילים רבים, לעבודה עם משקולות חופשיים ולעבודת בטן. \n\nמידות: אורך 145 ס"מ, רוחב 80 ס"מ. '
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView269"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="₪ 849"
+            android:textColor="#DD3434"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

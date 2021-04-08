@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".spacerplus">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView171"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/spacerplus1" />
+
+            <ImageView
+                android:id="@+id/imageView172"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/spacerplus2" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView206"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Spacer Plus"
+            android:textColor="#DC2828"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView207"
+            android:layout_width="match_parent"
+            android:layout_height="326dp"
+            android:text='צג דיגיטלי עם חלון מרכזי גדול ותצוגת מהירות, זמן, מרחק, שריפת קלוריות ודופק. \nטכנולוגיה מגנטית חדישה לפעולה חלקה ושקטה באיכות וגימור ברמה גבוהה. \nמד דופק מגע מובנה בידיות מאפשר אימון אירובי מדוייק. \nידיות מרוץ מקצועיות. \nגלגל תנופה גדול 12 ק"ג לעבודה חלקה. \nמנגנון התנגדות מגנטית חרישית. \nכסא גדול, נוח ומרופד בחומר מונע הזעה, מתכוונן לגובה, קדימה ואחורה. \n8 דרגות קושי לאימון במאמצים שונים. גלגלים מובנים לניוד קל. \nשילדה חזקה ומסיבית.  \nאחריות ל - 12 חודשים. '
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView208"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="₪ 1,299"
+            android:textColor="#DD3939"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

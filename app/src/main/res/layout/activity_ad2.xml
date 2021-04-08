@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ad2">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView184"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ad2a" />
+
+            <ImageView
+                android:id="@+id/imageView185"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ad2b" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView227"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="AD2"
+            android:textColor="#DC3232"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView228"
+            android:layout_width="match_parent"
+            android:layout_height="385dp"
+            android:text='אופני AD2 הם מכשיר כושר מעולה לאימוני סיבולת לב-ריאה, אינטרוולים וקרוספיט.\nאופני Airdyne המתוחכמות פועלות על התנגדות הרוח. \nדיווש מהיר יותר מגדיל את ההתנגדות ואת רמת הקושי. \nרמת ההתנגדות אינסופית ותלויה במהירות הדיווש. \nמערכת כפולה מאפשרת אימון הידיים והרגליים בו זמנית או כל אחד מהם בנפרד.  \nתנועת יד ורגל מסונכרנת המדמה תנועה טבעית - לאימון מלא של כל הגוף.  \nניתן להשתמש רק בידיות הסקי - לאימון כח ממוקד של לפלג גוף עליון.  \nצג LCD משוכלל המציג נתוני מהירות, מרחק, זמן, סל"ד ושריפת קלוריות.\nגלגלים לניוד קל. \nעיצוב חדשני. \nמשקל משתמש מקסימאלי 113 ק"ג.\nאורך 117 ס"מ, רוחב 64 ס"מ, גובה 127 ס"מ, משקל 44 ק"ג. '
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView229"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="₪ 2,799"
+            android:textColor="#E13D3D"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Universe">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageView
+            android:id="@+id/imageView81"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            app:srcCompat="@drawable/universe1" />
+
+        <TextView
+            android:id="@+id/textView62"
+            android:layout_width="match_parent"
+            android:layout_height="472dp"
+            android:text='מהירות: 0-16 קמ"ש.\n מנוע שקט 7 כ"ס בשיא עם קירור אוויר.\n מנוע חזק בעל 10 שנות אחריות. \n מערכת 6 בולמי זעזועים אקטיביים לכל אורך המסילה. \n שיפוע חשמלי קדמי 0-12 דרגות. \n צג LCD  דיגיטלי משוכלל. מד דופק מובנה. \n מסלול מוטיבציה 400 מטר.\n 36 תוכניות אימון מקצועיות לשיפור הכושר והפחתת משקל. \n הצג כולל 4 לחצני קיצור דרך לשינוי המהירות + 4 לחצני קיצור דרך לשינוי השיפוע. \n תצוגת נתוני מהירות, מרחק, זמן, שיפוע, דופק ושריפת קלוריות.  \n פין ביטחון לעצירת חרום ונעילה מפני ילדים.  \n מתקן מובנה לבקבוק/שלט + מתקן לספר/טלפון/טאבלט.  \n מנגנון Soft-Drop לנחיתה רכה של המשטח בעת פתיחת הקיפול שילדה מסיבית, מתקפל בקלות, עיצוב חדיש וגימור בצבע מטאלי.  \n מתקפל בקלות וכולל מערכת של 4 גלגלים לניוד קל. \n אחריות: 10 שנים למנוע, 12 חודשים למכשיר. \n \n מידות: \n פתוח - אורך 179 ס"מ, רוחב 83 ס"מ  גובה 140 ס"מ. \n מקופל - אורך 115 ס"מ, רוחב 83 ס"מ  גובה 147 ס"מ.  \n מסילה - אורך 137 ס"מ, רוחב 47 ס"מ.  '
+            android:textColor="#000000"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/textView101"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="₪ 4,999"
+            android:textColor="#D62B2B"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

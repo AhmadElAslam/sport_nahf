@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".allweather">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/textView366"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="ALL WEATHER"
+            android:textColor="#3F51B5"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView262"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:srcCompat="@drawable/allweather" />
+
+        <TextView
+            android:id="@+id/textView367"
+            android:layout_width="match_parent"
+            android:layout_height="349dp"
+            android:text='שולחן טניס לשימוש חוץ / פנים  ALL WATHER.\nפלטות השולחן עמידות לחלוטין בפני כל מזג אוויר. \nפלטות השולחן עשויות מאלומיניום עבות 4 מ"מ.\nשילדה מסיבית מחומרים חדשניים המקנות לשולחן אפשרות לניוד וקיפול מהיר ואמין. \n8 גלגלים בציפוי גומי לניוד במשטחים מאתגרים המסתובבים 360 מעלות, מנגנון נעילת גלגלים בטיחותי, רגלי השולחן ניתנות לפילוס. \nכיסויי פינות להגנת הפלטות. \nצביעה מיוחדת של הפלטות המונעת סנוור בצבע כחול. \nמידות שולחן: 2740x1525x760mm.\nעובי מסגרת: 15x30mm.\n8 רגלים מתכת 30 x 30 מ"מ.\n8 גלגלים בקוטר 50 מ"מ לניוד קל. \nצבע כחול. '
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView368"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="₪ 2,249"
+            android:textColor="#3F51B5"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

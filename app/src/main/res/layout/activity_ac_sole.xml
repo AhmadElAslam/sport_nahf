@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AcSole">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView106"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/acsole1" />
+
+            <ImageView
+                android:id="@+id/imageView107"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/acsole3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView108"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/acsole2" />
+
+            <TextView
+                android:id="@+id/textView79"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text='מנוע AC שקט ורב עוצמה בטכנולוגיית INVENTER. \n מהירות מקסימלית 20 קמ"ש. \n 10 תוכניות אימון. \n 15 דרגות שיפוע חשמלי 15%- 0. \n מסילת גומי מקצועית בעובי 1.8 מ"מ.   \n מערכת בולמי זעזועים לכל אורך המסילה CUSHION FLEX .\n מד דופק מובנה בידיות המכשיר. '
+                android:textColor="#000000"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView80"
+            android:layout_width="match_parent"
+            android:layout_height="347dp"
+            android:text='מקלט למד דופק אלחוטי. \n רצועת משדר אלחוטית לחזה. \n צג LCD משוכלל עם חלון תצוגה ענק 19 ס"מ. \n לחצני "קיצור דרך" למהירויות ושיפועים מובנים. \n תצוגת נתוני מהירות, מרחק, זמן, שיפוע, דופק, שריפת קלוריות ואחוזי שומן. \n חיבור MP3, רמקולים מובנים הכוללים ערכת חיבור לסמארטפונים. \n חיבור Bluetooth לתמיכה באפליקציות כושר. \n מתקן מובנה להנחת אביזרים (טלפון, בקבוק, מגבת וכדומה)  .\n מתקפל בקלות ונייד על 4 גלגלים. \n הליכון מסיבי המתאים למשתמשים עד 150 ק"ג. \n \n מידות:  \n פתוח - אורך 209 ס"מ, רוחב 94 ס"מ, גובה 146 ס"מ. \n מקופל - אורך 113 ס"מ, רוחב 94 ס"מ, גובה 184 ס"מ. \n משטח ריצה ענק באורך 153 ס"מ ורוחב 56 ס"מ. '
+            android:textColor="#000000"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/textView111"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="₪ 9,999"
+            android:textColor="#CA3636"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

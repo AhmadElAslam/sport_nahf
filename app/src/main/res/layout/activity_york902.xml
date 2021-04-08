@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".york902">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView118"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/aa902a" />
+
+            <ImageView
+                android:id="@+id/imageView119"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/aa902b" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView120"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="YORK 902"
+            android:textColor="#E15555"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView121"
+            android:layout_width="match_parent"
+            android:layout_height="372dp"
+            android:text='תנועתו האליפטית מונעת נזקי ברכיים וקרסוליים .\n מנגנון התנגדות מגנטית בעל 8 דרגות קוש .\n ידיות סקי גדולות ומרופדות לאימון פלג גוף עליון .\n תנועה קידמית ואחורית לשיפור הקואורדינציה.\n מד דופק מובנה – לאימון אירובי יעיל \n חיישני דופק בידיות .\n צג דיגיטאלי משוכלל . \n חלון LCD מרכזי ענק ומפוצל המציג בו זמנית את כל נתוני האימון .\n תצוגת מהירות, מרחק, זמן, קלוריות, דופק .\n עיצוב חדשני וגימור מפואר .\n גלגלים לניוד קל לאחסנה בסיום האימון .\n משקל משתמש מרבי: 130 ק"ג. \n\n מידות: \n אורך 115 ס"מ, רוחב 68 ס"מ, גובה 168 ס".'
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView122"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="₪ 2,299 "
+            android:textColor="#D84949"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

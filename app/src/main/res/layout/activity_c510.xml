@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".c510">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageView
+            android:id="@+id/imageView195"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:srcCompat="@drawable/c510a" />
+
+        <TextView
+            android:id="@+id/textView242"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="C510"
+            android:textColor="#CA3737"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView243"
+            android:layout_width="match_parent"
+            android:layout_height="315dp"
+            android:text='אופני ספינינג מקצועיות לחדר כושר SPORTART C510  \nגלגל תנופה כבד במיוחד מונע ע"י רצועת גומי V-POLY שקטה וחלקה  ידית לעצירת חירום .\nבסיס רחב ליציבות מושלמת שלדת פלדה .\nחווית רכיבה מדהימה מנופי כיוון מהירים ופשוטים לתפעול .\nפדלים נוחים מונעים החלקה רצועות קשירה מהירה ידיות אחיזה ארגוניומיות.\nמשקל משתמש מרבי : 150 ק"ג.\nמשקל : 55 ק"ג.\nמידות : אורך 104 ס"מ, רוחב 65 ס"מ, גובה 123 ס"מ.'
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView244"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="₪ 5,999"
+            android:textColor="#CA2424"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

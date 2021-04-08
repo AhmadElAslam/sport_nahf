@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".grch322">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView237"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/grch322a" />
+
+            <ImageView
+                android:id="@+id/imageView238"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/grch322b" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView324"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="GRCH-322"
+            android:textColor="#D13030"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView325"
+            android:layout_width="match_parent"
+            android:layout_height="329dp"
+            android:text='ספה מקצועית אופקית לחיזוק שרירי זוקפי גב.\nספה מסיבית ונוחה מתכווננת  גם באזור הרגליים ומתאימה לכל מתאמן.\nריפודי תמיכה נוחים לרגליים.\nידיות תמיכה לכניסה ויציאה נוחה ובטוחה מהמכשיר. \nמכשיר יציב ומקצועי מתאים לחדר כושר ולשימוש ביתי.  \n\nמידות: אורך 114 ס"מ, רוחב 66 ס"מ, גובה 109 ס"מ.'
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView326"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="₪ 1,649"
+            android:textColor="#D12323"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

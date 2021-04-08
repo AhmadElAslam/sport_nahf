@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".solo">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView120"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/solo1" />
+
+            <ImageView
+                android:id="@+id/imageView121"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/solo2" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView123"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="SOLO"
+            android:textColor="#D64040"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView124"
+            android:layout_width="match_parent"
+            android:layout_height="397dp"
+            android:text='מנגון התנגדות עם 8 דרגות קושי. \n גלגל תנופה מסיבי 10 ק"ג. \n ידיות סקי גדולות ומרופדות. \n מד דופק מובנה - לאימון אירובי יעיל. \n צג דיגיטאלי משוכלל. \n חלון תצוגה ענק ומפוצל המראה את כל נתוני האימון. \n תצוגת מהירות, מרחק, זמן, קלוריות, דופק מטרה וכושר- התאוששות. \n אליפטי מגנטי מקצועי ומשוכלל המשלב הליכה,ריצה, טיפוס וסקי. \n התנועה האליפטית מגינה מנזקי ברכיים וקרסוליים. \n מאפשר אימון דו כיווני - קדימה ואחורה לשיפור הקורדינאציה. \n מבנה מסיבי המתאים למשתמשים עד 110 ק"ג. \n מייצבים בבסיס המכשיר. \n \n מידות: \n אורך 120 ס"מ, רוחב 70 ס"מ, גובה 165 ס"מ.'
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView125"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="₪ 1,799"
+            android:textColor="#DF3A3A"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

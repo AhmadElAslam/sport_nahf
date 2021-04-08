@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".e7000">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView127"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/e7000a" />
+
+            <ImageView
+                android:id="@+id/imageView129"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/e7000c" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView130"
+                android:layout_width="4dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/e7000b" />
+
+            <LinearLayout
+                android:layout_width="81dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView137"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="E7000"
+                    android:textColor="#E64E4E"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView138"
+                    android:layout_width="match_parent"
+                    android:layout_height="153dp"
+                    android:text='שינוי התנגדות ממוחשב ע"י חוגה סיבובית דיגיטלית. \n מיסבים תעשיתיים אטומים. \nהדוושות מתכווננות ל-3 מצבים - לשינוי אורך הצעד. \n גובה הדוושות מתכוונן ל-4 מצבים - לשינוי המסלול האליפטי. '
+                    android:textColor="#000000"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView139"
+            android:layout_width="match_parent"
+            android:layout_height="287dp"
+            android:text='דגם מגנטי מסיבי ואיכותי ברמה גבוהה. \n משלב הליכה, ריצה, טיפוס וסקי לשריפת קלוריות מואצת. \n בעל תנועה אליפטית מושלמת - להגנה על הברכיים והקרסוליים.  \n מד דופק מובנה + מד אחוזי שומן + 12 תוכניות אימון + מקלט דופק מובנה + דופק מטרה.  \n צג משוכלל עם תאורה אחורית וספרות גדולות. \n תצוגת מהירות, זמן, מרחק, קלוריות, דופק, עומס (1-16), סיבובים לדקה, התאוששות, הספק בוואט וסורק נתונים אוטומטי. \n מתקן לבקבוק + בקבוק שתייה מתכתי. \nגלגלים לניוד ואחסנה.  \n מידות: אורך 132 ס"מ, רוחב 62 ס"מ, גובה 156 ס"מ  '
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView140"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="₪ 4,399"
+            android:textColor="#D53636"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

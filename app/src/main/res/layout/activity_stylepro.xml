@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".stylepro">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageView
+            android:id="@+id/imageView177"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/stylepro" />
+
+        <TextView
+            android:id="@+id/textView218"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="STYLE PRO"
+            android:textColor="#D53939"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView219"
+            android:layout_width="match_parent"
+            android:layout_height="389dp"
+            android:text='אופני כושר מקצועיים ונוחים המתאימים לאימונים אינטנסיביים במאמץ גבוה. \nגלגל תנופה מסיבי 15 ק"ג עם מגנטים וחישוק אלומיניום היקפי לפעולה חרישית וחלקה. \nאפשרות הכנסת נתוני מתאמן לצורך בדיקת אחוזי שומן. \nתצוגה גדולה ומוארת הכוללת גם נתוני זמן וטמפרטורת החדר. \nתצוגת נתוני מהירות, מרחק, זמן, קלוריות, אחוזי שומן, דופק וסורק. \nמושב מרופד בחומר מונע הזעה עם כיוונון כפול: אנכי ואופקי. \nידיות מרוץ מקצועיות הכוללות חיישני דופק. \nמד אחוזי שומן. \nפדלים רחבים להקטנת מאמצי קרסוליים. \nשילדה חזקה ויציבה במיוחד, עיצוב הייטק וגימור מהודר. \nמיסבים תעשייתיים אטומים. \nמשקל מתאמן מקסימלי: 150 ק"ג. \nגלגלים גדולים לניוד קל. \nמידות : אורך 88 ס"מ, רוחב 51 ס"מ, גובה 143 ס"מ  '
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView220"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="₪ 1,999"
+            android:textColor="#DC3939"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

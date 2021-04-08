@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".b180">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageView
+            android:id="@+id/imageView218"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:srcCompat="@drawable/b180" />
+
+        <TextView
+            android:id="@+id/textView288"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="B-180"
+            android:textColor="#E13939"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView289"
+            android:layout_width="match_parent"
+            android:layout_height="276dp"
+            android:text='ספה שטוחה מבית YORK, מותג הכושר המוביל בעולם. \nדגם מקצועי המתאים לשימוש בחדרי כושר או שימוש ביתי. \nריפודים עבים ונוחים מחומר מונע זיעה. \nמקצועית, יציבה ומסיבית. \nגלגלים וידית אחיזה לניוד קל.  \nנוחה לאיחסון.  \n\nמידות: אורך 126 ס"מ, רוחב 57 ס"מ, גובה 45 ס"מ. '
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView290"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="₪ 649"
+            android:textColor="#E62F2F"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

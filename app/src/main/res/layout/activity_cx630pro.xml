@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cx630pro">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageView
+            android:id="@+id/imageView186"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/cx630a" />
+
+        <TextView
+            android:id="@+id/textView230"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="CX-630 PRO"
+            android:textColor="#D63535"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView231"
+            android:layout_width="match_parent"
+            android:layout_height="386dp"
+            android:text='מתאים לשימוש בחדרי כושר. \nתנועה חלקה וחרישית. \nפדלים מקצועיים + סוגר אובלי לעבודה אינטנסיבית ומהירה. \nפדלים SPD דו צדדיים המאפשרים דיווש רגיל או דיווש דמוי אופני מירוץ. \nמושב מקצועי מתכוונן אופקי ואנכי, נע על מסילות אל חלד. \nכידון מקצועי מתכוונן אופקי ואנכי, נע על מסילות אל חלד. \nצג מובנה כולל תצוגת זמן, מרחק, מהירות, קלוריות ודופק. \nכיסוי על גוף האופניים למניעת חלודה. \n2 מייצבים מתכווננים בבסיס האופניים. \nמעצור חירום רחב לעצירת גלגל תנופה. \nמתקן מובנה לבקבוק שתייה. \nנייד על גלגלים.  \nשילדה יציבה במיוחד המחוברת בבורגי אל חלד. \nגלגל תנופה ענק 20 ק"ג. \nמשקל משתמש מקסימלי : 150 ק"ג.\nמידות : אורך 117 ס"מ, רוחב 56 ס"מ , גובה 114 ס"מ.  '
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView232"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="₪ 3,499"
+            android:textColor="#CD3535"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

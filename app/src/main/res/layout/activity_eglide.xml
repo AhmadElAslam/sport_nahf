@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".eglide">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView141"
+                android:layout_width="204dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/eglide1" />
+
+            <ImageView
+                android:id="@+id/imageView142"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/eglide2" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView152"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="E-GLIDE"
+            android:textColor="#DD3C3C"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView153"
+            android:layout_width="match_parent"
+            android:layout_height="321dp"
+            android:text="מתאים לחדרי כושר או לשימוש פרטי .\n עבודה חלקה במיוחד גלגל ספינינג כבד הנותן תחושה של תנועה רצופה וחלקה .\n צג נתונים: 4 חולונות זמן,מהירות,מרחק ,קלוריות מד דופק.\n שינוי התנגדות מיכנית לעשרות דרגות קושי.\n התנגדות מגנטית ומעצור חירום כמו באופני ספינינג .\n אורך צעד: 51 ס&quot;מ .\n מבנה מסיבי בעיצוב מדהים (צבע אדום) .\n משקל משתמש מרבי: 205 ק&quot;ג.\n מידות: אורך 176 ס&quot;מ' רוחב 61 ס&quot;מ, גובה 168 ס&quot;מ."
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView154"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="₪ 10,499"
+            android:textColor="#D33C3C"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Apollo">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView73"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/apollo" />
+
+            <ImageView
+                android:id="@+id/imageView74"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/apollo2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView75"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/apollo3" />
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="409dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text='מהירות 0-16 קמ"ש.  \n מנוע שקט ורב עוצמה ! \n מתקפל בקלות עם בוכנה דו כיוונית.  \n מתקפל ונייד על גלגלים.\n שיפוע חשמלי קדמי 0-15% עם תצוגה של דרגות השיפוע.\n מערכת לחצני מהירות ולחצני שיפוע בצידי המכשיר.'
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView56"
+            android:layout_width="match_parent"
+            android:layout_height="296dp"
+            android:text='צג LCD גדול עם תאורה כחולה, תצוגת מהירות, מרחק, זמן, שיפוע, שריפת קלוריות, דופק ואחוזי שומן. \n 36 תוכניות אימון מקצועיות לשיפור הכושר ולהפחתת המשקל הכוללות זוויות ומהירויות. \n פין ביטחון לעצירת חירום ונעילה מפני ילדים. \n אחריות: שנה למכשיר, 5 שנים למנוע. \n מתאים למשתמשים עד 115 ק"ג. \n \n מידות:  \n פתוח – אורך 160 ס"מ, רוחב 75 ס"מ\n מקופל – אורך 100 ס"מ, רוחב 75 ס"מ \n מסילה – אורך 129 ס"מ, רוחב 44 ס"מ. '
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView97"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="₪ 4,299"
+            android:textColor="#D53B3B"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

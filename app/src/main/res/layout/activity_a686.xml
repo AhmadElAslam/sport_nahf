@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".a686">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageView
+            android:id="@+id/imageView173"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/a686" />
+
+        <TextView
+            android:id="@+id/textView209"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="YORK 686 "
+            android:textColor="#CF3030"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView210"
+            android:layout_width="match_parent"
+            android:layout_height="411dp"
+            android:text='מתאימות במיוחד לכבדי משקל ולאנשים עם בעיות גב. \nעבודה מגנטית חלקה וחרישית ומבנה מסיבי ויציב במיוחד. \nמושב גדול ונוח הכולל ידיות אחיזה ומשענת גב ענקית. \nעיצוב ארגונומי מיוחד התומך בגב ושומר על חוליות השידרה. \nנוחיות מושלמת והתאמה לכל מתאמן. אידיאלי לכבדי משקל. \nהמושב ומשענת הגב מרופדים בחומר מונע הזעה. \nמרחק המושב מהפדלים ניתן לכיוונון בהתאם לגובה המתאמן. \nאין צורך לקום מהכסא בעת הכיוונון והנעילה. \nגלגל תנופה גדול 9 ק"ג לעבודה מגנטית חלקה ושקטה. \nמערכת התנגדות מגנטית שקטה בעלת  8 דרגות קושי.\nמד דופק מגע בידיות לאימון אירובי מדויק ויעיל. \nצג דיגיטלי משוכלל בעל חלון LCD ענק. \nתצוגת מהירות, מרחק, זמן, שריפת-קלוריות, דופק וסורק. \nפדלים גדולים ומחוספסים, עם רצועות נעילה. \nפדלים גדולים ומחוספסים, עם רצועות נעילה. \nמידות: אורך 96-120 ס"מ, רוחב 60 ס"מ, גובה 89 ס"מ. '
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView211"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="₪ 1,599"
+            android:textColor="#D63B3B"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

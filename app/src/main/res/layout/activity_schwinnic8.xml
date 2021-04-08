@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".schwinnic8">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView196"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/schwinnic8a" />
+
+            <ImageView
+                android:id="@+id/imageView197"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/schwinnic8" />
+
+            <ImageView
+                android:id="@+id/imageView198"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/schwinnic8c" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView245"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="SCHWINN IC8"
+            android:textColor="#D12929"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView246"
+            android:layout_width="match_parent"
+            android:layout_height="418dp"
+            android:text='אופני ספינינג חשמליים ומשוכללים חצי מקצועיים. \nמגוון ענק של 100 רמות התנגדות ניתנות לכוונן בכל עת. \nגלגלים מובנים לניוד קל. \nצג LCD מואר ומשוכלל כולל נתוני זמן, מרחק, קלוריות, מהירות, סל"ד ודופק. \nמדף מדיה מובנה להנחת סמארטפון/טאבלט ולשימוש בזמן האימון. \nתואם רצועת דופק באמצעות חיבור Bluetooth\nחיבור USB מובנה.\nמושב מירוץ מרופד ומאוורר, מתכוונן אופקית ואנכית להתאמה מרבית לכל משתמש. \nפדלים SPD דו צדדיים המאפשרים דיווש רגיל או דיווש דמוי אופני מירוץ. \n2 מתקנים מובנים לאחסנת זוג דמבלס ויניל או נאופרן 1.5 ק".\n2 מתקנים מובנים לאחסנת בקבוקי שתייה. \nמשקל המכשיר: 48 ק"ג. \nמשקל משתמש מרבי: 150 ק"ג. \nמידות: אורך 124 ס"מ, רוחב 54 ס"מ, גובה 132 ס"מ.  '
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView247"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="₪ 6,999"
+            android:textColor="#D13333"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

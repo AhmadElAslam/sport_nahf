@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".spiritce800">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView139"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/spiritce800a" />
+
+            <ImageView
+                android:id="@+id/imageView140"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/spiritce800b" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView149"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="SPIRIT CE800"
+            android:textColor="#D14A4A"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView150"
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:text='אליפטי חשמלי עם גנרטור פנימי ללא צורך בחיבור לחשמל .\n מסיבי ואיכותי מתאים לשימוש בחדר כושר או לשימוש ביתי.\n משלב : הליכה ,ריצה,טיפוס וסקי ,לשריפת קלוריות מואצת.\n תנועה אליפטית מושלמת - להגנה על הברכיים והקרסוליים.\n מאוורר מובנה על הצג לקירור המתאמן.\n תוכניות מחשב כולל 2 תוכניות בקרת דופק.\n שינוי התנגדות ממוחשב ע"י לחצנים דיגטילים .\n 40 דרגות התנגדות משתנות בלחיצת כפתור .\n מתאים למשקל מתאמן עד 180 ק"ג.\n תצוגה: מהירות, מרחק, זמן, קלוריות, דופק מגע או דופק רצועה אלחוטית. \n פדלים ענקיים בעלי מבנה מיוחד המונע החלקה.\n גלגלים לניוד .\n מידות: אורך 195 ס"מ רוחב 70 ס"מ גובה 168 ס"מ.'
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView151"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="₪ 10,599"
+            android:textColor="#DC4343"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

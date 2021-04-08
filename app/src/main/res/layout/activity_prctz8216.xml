@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".prctz8216">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageView
+            android:id="@+id/imageView214"
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            app:srcCompat="@drawable/prctz8216a" />
+
+        <TextView
+            android:id="@+id/textView276"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="PRCTZ 8216"
+            android:textColor="#D83B3B"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView277"
+            android:layout_width="match_parent"
+            android:layout_height="335dp"
+            android:text='ספת כושר חופשית מתקפלת מבית PRCTZ.\nספת כושר מתכווננת ומתקפלת בקלות לאחסון נוח.\nמאפשרת 4 מצבי שיפוע.\nשילדה מסיבית.\nריפודים עבים ונוחים.\nספוגים נוחים. \nכריות תמיכה לרגליים. \nמייצבי בסיס.  \nיכולת נשיאה: 100 ק"ג.\n\nמידות: אורך 126 ס"מ, רוחב 63 ס"מ, גובה 104 ס"מ.'
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView278"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="₪ 699"
+            android:textColor="#D83232"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

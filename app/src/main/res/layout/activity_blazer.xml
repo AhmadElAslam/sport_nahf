@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Blazer">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView94"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView61"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/blazerplus1" />
+
+            <ImageView
+                android:id="@+id/imageView63"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/blazerplus2" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView50"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Blazer+"
+            android:textColor="#D51717"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView49"
+            android:layout_width="match_parent"
+            android:layout_height="358dp"
+            android:text='מהירות: 16- 0 קמ"ש. \n מנוע שקט 7 כ"ס בשיא עם קירור אוויר.\n מערכת 8 בולמי זעזועים אקטיביים לכל אורך המסילה. \n צג LCD  ענק המציג את כל נתוני האימון. \n 8 תוכניות אימון מקצועיות לשיפור הכושר והפחתת משקל. \n מד דופק מובנה בידיות המכשיר. \n תצוגת נתוני מהירות, מרחק, זמן, דופק ושריפת קלוריות. \n פין ביטחון לעצירת חרום ונעילה מפני ילדים. \n מנגנון Soft-Drop לנחיתה רכה של המשטח בעת פתיחת הקיפול שילדה מסיבית, מתקפל בקלות, עיצוב חדיש וגימור בצבע מטאלי. \n כולל מערכת של 4 גלגלים לניוד קל. \n  אחריות: 5 שנים למנוע, 12 חודשים למכשיר. \n מידות: \n פתוח - אורך 179 ס"מ, רוחב 75 ס"מ  גובה 124 ס"מ. \n מקופל - אורך 100 ס"מ, רוחב 75 ס"מ  גובה 150 ס"מ. \n מסילה - אורך 126 ס"מ, רוחב 46 ס"מ.'
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView91"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="₪ 3,899"
+            android:textColor="#CD2D2D"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

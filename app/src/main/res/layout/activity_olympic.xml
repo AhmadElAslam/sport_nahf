@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Olympic">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView84"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/olympic1" />
+
+            <ImageView
+                android:id="@+id/imageView85"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/olympic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView86"
+                android:layout_width="237dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/olympic2" />
+
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="236dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text='מנוע שקט וחזק, עם קירור אוויר.\n מהירות: 16- 0 קמ"ש. \n מערכת בולמי זעזועים אקטיביים לאורך המסילה. \n שיפוע חשמלי קדמי עם 15 דרגות שיפוע.\n מערכת לחצני מהירות ולחצני שיפוע בידיות המכשיר.\n מד דופק מובנה בידיות המכשיר. '
+                android:textColor="#000000"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView63"
+            android:layout_width="match_parent"
+            android:layout_height="313dp"
+            android:text='צג משוכלל וממוחשב בעל חלון LCD גדול. \n 24 תוכניות ממוחשבות + מנואל + HRC. \n תצוגת נתוני מהירות, מרחק, זמן, קלוריות, שיפוע, דופק ותוכניות. \n מדפים להנחת פלפון, שלט ובקבוק. \n פין ביטחון לעצירת חירום ונעילה מפני ילדים.  \n מערכת SOFT DROP לנחיתה רכה של המשטח בעת פתיחת הקיפול. \n מתקפל ונייד בקלות על 4 גלגלים. \n אחריות: 10 שנים למנוע, 12 חודשים למכשיר.  \n משקל משתמש מרבי: 120 ק"ג. \n\n מידות: \n  פתוח - אורך 165 ס"מ, רוחב 79 ס"מ \n מקופל - אורך 84 ס"מ, רוחב 79 ס"מ \n מסילה - אורך 127 ס"מ, רוחב 46 ס"מ  '
+            android:textColor="#000000"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/textView102"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="₪ 5,899"
+            android:textColor="#D63636"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

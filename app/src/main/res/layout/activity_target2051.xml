@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".target2051">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageView
+            android:id="@+id/imageView234"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:srcCompat="@drawable/target2051" />
+
+        <TextView
+            android:id="@+id/textView318"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="TARGET 2051"
+            android:textColor="#E33232"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView319"
+            android:layout_width="match_parent"
+            android:layout_height="352dp"
+            android:text="ספת כושר עם פולי עליון ומתקן לאימון יד קידמית מבית TARGET.\nכני משקולות מברזל חזק בפרופיל עגול. \nמשענת הגב מתכווננת למצבים:משיפוע שלילי ועד 45 מעלות. \nכן משקולות מתכוונן לגובה.  \nמתקן הפולי נייד ומאפשר שינוי מיקום בקלות.  \nריפודים עבים מחומר מונע הזעה ומעוצבים בעלי תמיכה ארגונומית. \nמשענת הגב בעלת מבנה מיוחד השומר על חוליות עמוד השידרה. \nמתקן אחסנה אחורי למשקולות. \nמתקן יד קידמית מקצועי ונייד. \nמתאים לתרגילים רבים: עבודה עם משקולות חופשיים,דחיקה,גב, יד אחורית, פושטי וכופפי רגליים, אימוני ידיים ועוד.  "
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView320"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="₪ 1,499"
+            android:textColor="#E43333"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

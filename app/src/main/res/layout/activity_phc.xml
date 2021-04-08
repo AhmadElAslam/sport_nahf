@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".phc">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView255"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/phc" />
+
+            <ImageView
+                android:id="@+id/imageView256"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/phc2" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView351"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="P-HC"
+            android:textColor="#D32020"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView352"
+            android:layout_width="match_parent"
+            android:layout_height="283dp"
+            android:text='ספה לחיזוק גב תחתון בשני מצבים.\nעבודה בזוית של 45 מעלות או זוית שטוחה למתקדמים. \nמתכוונן ומתאים לכל גובה מתאמן . \nניתן לכוון את זוית העבודה ובנוסף את פלטת הנחת הרגליים . \nרפודים עבים ונוחים במיוחד . \nמתאים גם לעבודת בטן .  \n\nמידות : אורך 127 ס"מ, רוחב 81 ס"מ, גובה 89 ס"מ.'
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView353"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="₪ 2,849"
+            android:textColor="#D12E2E"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

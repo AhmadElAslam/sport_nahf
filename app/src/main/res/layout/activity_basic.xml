@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".basic">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView169"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/basic1" />
+
+            <ImageView
+                android:id="@+id/imageView170"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/basic2" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView203"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="BASIC"
+            android:textColor="#DA3131"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView204"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:text='אופני כושר מגנטיות בעלות מושב עם משענת גב וידיות אחיזה. \nמתאימות במיוחד לכבדי משקל ולאנשים עם בעיות גב. \nעבודה מגנטית חלקה וחרישית ומבנה מסיבי ויציב במיוחד. \nמושב גדול ונוח הכולל ידיות אחיזה ומשענת גב ענקית. \nעיצוב ארגונומי מיוחד התומך בגב ושומר על חוליות השידרה. \nנוחיות מושלמת והתאמה לכל מתאמן. \nהמושב ומשענת הגב מרופדים בחומר מונע הזעה. \nמרחק המושב מהפדלים ניתן לכיוונון בהתאם לגובה המתאמן. \nאין צורך לקום מהכסא בעת הכיוונון והנעילה. \nגלגל תנופה גדול 10 ק"ג לעבודה מגנטית חלקה ושקטה. \nמערכת התנגדות מגנטית שקטה בעלת  8 דרגות קושי. \nמד דופק מגע בידיות לאימון אירובי מדויק ויעיל. \nצג דיגיטלי משוכלל בעל חלון LCD ענק.\nתצוגת מהירות, מרחק, זמן, שריפת-קלוריות, דופק, מרחק מצטבר וסורק. \nפדלים גדולים ומחוספסים, עם רצועות נעילה. \nמבנה מסיבי וגלגלים מובנים לניוד נוח. \nמשקל משתמש מרבי: 110 ק"ג.\nמידות: אורך 120-145 ס"מ, רוחב 60 ס"מ, גובה 82 ס"מ '
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView205"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="₪ 1,399"
+            android:textColor="#DA3232"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

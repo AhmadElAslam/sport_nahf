@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".skyline">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView125"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/skyline1" />
+
+            <ImageView
+                android:id="@+id/imageView126"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/skyline2" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView132"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="SKYLINE"
+            android:textColor="#D54040"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView133"
+            android:layout_width="match_parent"
+            android:layout_height="462dp"
+            android:text="דגם מסיבי ואיכותי ברמה גבוהה, מתאים גם לאימון של מס' שעות ביום. \n בעל תנועה אליפטית מושלמת להגנה על הברכיים והקרסוליים. \n שינוי התנגדות ממוחשב ע&quot;י לחצנים דיגיטליים. \n 24 תוכניות אימון ממוחשבות הכוללות מגוון רחב של אפשרויות אימון. \n 4 תוכניות שונות של בקרת דופק HRC. \n 4 תוכניות אימון שונות לתכנות אישי. \n המכשיר קורא רצועת דופק אלחוטית המשדרת את דופק המתאמן ישירות לצג. \n 24 דרגות התנגדות המשתנות בלחיצת כפתור. \n רמקולים איכותיים מובנים בצג המכשיר הכוללים ערכת חיבור לכל סוגי הסמארטפונים. \n צג LCD גדול ומואר המציג את גרף התוכניות וההתקדמות בתוכן. \n תצוגת נתוני מהירות, מרחק, זמן, דופק, אחוזי שומן, שעון ושריפת קלוריות. \n פדלים רחבים וגדולים במיוחד ליציבת מלאה ואימון נוח. \n משקל משתמש מרבי: 130 ק&quot;ג \n אחריות - שנה \n מידות: אורך 145 ס&quot;מ, רוחב 52 ס&quot;מ, גובה 160 ס&quot;מ   "
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView134"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="₪ 3,999"
+            android:textColor="#D33E3E"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

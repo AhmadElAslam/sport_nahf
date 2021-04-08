@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".conanpro">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageView
+            android:id="@+id/imageView148"
+            android:layout_width="wrap_content"
+            android:layout_height="260dp"
+            app:srcCompat="@drawable/conanpro" />
+
+        <TextView
+            android:id="@+id/textView161"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="CONAN PRO"
+            android:textColor="#D63C3C"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView165"
+            android:layout_width="match_parent"
+            android:layout_height="341dp"
+            android:text='דגם איכותי לעבודה מאוזנת ומושלמת לכל שרירי הגוף .\n כבלי פלדה עם ציפוי ניילון לעבודה שקטה וחלקה .\n גלגלות אוקולון עם מיסבים משומנים לעבודה שקטה וחלקה .\n נוח לשימוש מעבר קל בין תרגילים  .\n כולל כרית יד קדמית לעבודת ידיים .\n 75 ק"ג משקולות הנעים חרישית על מוטות מצופים כרום- ניקל .\n ריפודים עבים ונוחים מחומר מונע הזעה.\n גובה כסא מתכוונן בקלות .\n תרגילי דחיקה ,פרפר,יד קידמית , משיכה עליונה תחתונה ,חתירה ועבודת רגליים . \n עיצוב חדשני - צבע כסף מטאלי .\n אביזרים כלולים: מוט לפולי ארוך, מוט לפולי קצר ,רצועה לרגליים .\n \n מידות: אורך 179 ס"מ, רוחב 99 ס"מ, גובה 211 ס"מ.   '
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView166"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="₪ 2,999"
+            android:textColor="#CD3A3A"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

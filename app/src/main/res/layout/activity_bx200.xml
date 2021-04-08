@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bx200">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView122"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/bx200a" />
+
+            <ImageView
+                android:id="@+id/imageView123"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/bx200b" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView127"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="BX200"
+            android:textColor="#E14A4A"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView128"
+            android:layout_width="match_parent"
+            android:layout_height="406dp"
+            android:text='שינוי התנגדות חשמלי ממוחשב -ׁ24 דרגות קושי.\n גלגל תנופה כבד 14 ק"ג עם מיסבים אטומים לפעולה חלקה בכל רמות הקושי. \n שינוי התנגדות חשמלי ממוחשב -ׁ24 דרגות קושי.\n גלגל תנופה כבד 14 ק"ג עם מיסבים אטומים לפעולה חלקה בכל רמות הקושי. \n  מד דופק מובנה + 24 תוכניות אימון. \n אפשרות תנועה קדימה ואחורה - להפעלת קבוצות שרירים שונות.  \n אליפטי מקצועי משוכלל  מסיבי ואיכותי ברמה גבוהה. \n משלב הליכה, ריצה, טיפוס וסקי לשריפת קלוריות מהירה. \n צג צבעוני מואר ומשוכלל בעל חלון גדול וספרות ברורות. \n תצוגת מהירות, זמן, מרחק, קלוריות, דופק, דופק מטרה, התאוששות וסורק נתונים אוטומטי. \nגלגלים לניוד ואחסנה. \n\n מידות: \n אורך 130 ס"מ, רוחב 64 ס"מ, גובה 162 ס"מ.'
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView129"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="₪ 2,749"
+            android:textColor="#D53F3F"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

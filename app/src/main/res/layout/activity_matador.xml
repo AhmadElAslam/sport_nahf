@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Matador">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView87"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/matador1" />
+
+            <ImageView
+                android:id="@+id/imageView88"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/matador2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView89"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/matador5" />
+
+            <TextView
+                android:id="@+id/textView66"
+                android:layout_width="58dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text='מנוע שקט וחזק, 7.5 כ"ס\n מהירות: 0-18 קמ"ש.\n 8 בולמי זעזועים אלסטיים בעלי דרגות בלימה שונות לכל אורך המסילה \n שיפוע חשמלי קדמי 0-15% עם תצוגה של דרגות השיפוע\n שיפוע חשמלי קדמי 0-15% עם תצוגה של דרגות השיפוע.'
+                android:textColor="#000000"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView67"
+            android:layout_width="match_parent"
+            android:layout_height="356dp"
+            android:text='מערכת שיכוך זעזועיים קידמיים כפולה. \n מערכת לחצני מהירות ולחצני שיפוע בידיות המכשיר  \nמד דופק מובנה בידיות המכשיר וטבלת תחומי דופק על הצג - לאימון יעיל ואיכותי  \n  צג משוכלל הכולל חלון ענק בעל תאורת רקע כחולה ו-8 חלונות פנימיים \n 12 תוכניות אימון ממוחשבות ואפשרות להכנסת נתוני משקל, מין וגובה המתאמן \n חלון מרכזי גדול לגרף התוכניות הכולל מסלול מוטיבציה\n מאוורר מובנה במרכז הצג \n מתאים למשתמשים עד 140 ק"ג \n​נייד על 4 גלגלים  \n אחריות: שנה למכשיר, 10 שנים למנוע.  \n\n מידות: \n פתוח - אורך 185 ס"מ, רוחב 80 ס"מ, גובה 135 ס"מ \n מקופל - אורך 108 ס"מ, רוחב 80 ס"מ, גובה 157 ס"מ  \n מסילת ריצה ענקית באורך 135 ס"מ וברוחב 48 ס"מ'
+            android:textColor="#000000"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/textView103"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="₪ 5,699"
+            android:textColor="#CD3232"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

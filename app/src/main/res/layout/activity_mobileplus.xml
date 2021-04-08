@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mobileplus">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageView
+            android:id="@+id/imageView165"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/mobileplus" />
+
+        <TextView
+            android:id="@+id/textView194"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="MOBILE PLUS"
+            android:textColor="#DD3434"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView195"
+            android:layout_width="match_parent"
+            android:layout_height="411dp"
+            android:text='אופני כושר משוכללים עם טכנולוגיה מגנטית חדישה. \nגלגל תנופה גדול 8 ק"ג לפעולה חלקה ושקטה. \nמד דופק מגע בידיות - לאימון אירובי מדויק. \nפדלים מאוזנים ומחוספסים. \nמנגנון התנגדות מגנטית חרישית. \n8 דרגות קושי לאימון במאמצים שונים. \nידיות מרוץ מקצועיות עם חיישני דופק. \nכסא גדול, נוח ומרופד בחומר מונע הזעה. \nהמושב מתכוונן לגבהים שונים.\nצג דיגיטלי עם חלון מרכזי. \nתצוגת מהירות, מרחק, זמן, שריפת-קלוריות, דופק, מרחק מצטבר וסורק. \nאיכות גבוהה וגימור מהודר. \nשילדה חזקה ומסיבית. \nגלגלים מובנים לניוד קל. \nאחריות: 12 חודשים.\nמידות:\nאורך 92 ס"מ, רוחב 52 ס"מ\n'
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView196"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="₪ 899"
+            android:textColor="#D13838"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

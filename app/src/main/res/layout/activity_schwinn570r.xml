@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".schwinn570r">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView190"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/schwinn570r1" />
+
+            <ImageView
+                android:id="@+id/imageView191"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/schwinn570r2" />
+
+            <ImageView
+                android:id="@+id/imageView192"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/schwinn570r3" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView236"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="SCHWINN 570R"
+            android:textColor="#CA3131"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView237"
+            android:layout_width="match_parent"
+            android:layout_height="418dp"
+            android:text="צג ענק ומשוכלל בעל 2 מסכי LCD  מוארים, גרף תוכניות, כניסת USB להטענה או שמירת נתונים, מאוורר ענק 3 מהירויות, רמקולים איכותיים מובנים ומגש מדיה להנחת טלפון נייד/ ספר/ טאבלט וכו'. \nנתוני תצוגה: מהירות, מרחק, מרחק מצטבר, זמן, סל&quot;ד, דופק, קלוריות, התנגדות, גרף תוכניות, תוואי מסלול, טווח דופק, אחוז השלמת יעד, עצימות אימון, משתמש והישגים. \nשמירת פרופילים של 4 משתמשים שונים בו זמנית. \n29 תוכניות מקצועיות: 12 פרופילים, 9 תוכניות בקרת דופק, 4 תוכניות מובנות, 2 מבחני כושר, מבחן התאוששות ותוכנית התחלה מהירה. \n10 לחצני קיצור דרך לשינוי התנגדויות מהיר.\nידיות אחיזה ארגונומיות עם חיישני דופק, ומקלט דופק אלחוטי.\nידיות מרופדות ומתכווננות לזווית רכיבה נוחה. \nמושב מרופד ענק ונוח עם משענת גב ייחודית לנידוף הזעה. \nהמשב מתכוונן בקלות על מסילת אלומיניום. \nאחריות לשנה בבית הלקוח.\nמידות: אורך 163 ס&quot;מ, רוחב 71 סמ, גובה 127 ס&quot;מ."
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView238"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="₪ 4,999"
+            android:textColor="#CD3333"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

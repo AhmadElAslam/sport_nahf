@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".prctz7846">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageView
+            android:id="@+id/imageView215"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:srcCompat="@drawable/prctz7846" />
+
+        <TextView
+            android:id="@+id/textView279"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="PRCTZ 7846"
+            android:textColor="#DC3333"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView280"
+            android:layout_width="match_parent"
+            android:layout_height="360dp"
+            android:text='ספת כושר מתקפלת מבית PRCTZ - כולל מוט ומשקולות בסך 20 ק"ג.\nספת כושר מתקפלת בקלות לאחסנה נוחה.\nמשענת גב בעלת שיפוע מתכוונן ממצב שטוח ל-4 מצבים. \nכולל סט מוט ומשקולות בסך 20 ק"ג. \nמתקן לאימון רגליים. \nכני משקולות מברזל 38 מ"מ חזק.\nריפוד איכותי ונוח למושב ולמשענת הגב. \nהמושב והמשענת מצופים בחומר מונע הזעה.\nמבנה חזק ויציב. \nכריות תמיכה לרגליים. \nמשקל משתמש מרבי: 100 ק"ג.\n\nמידות: אורך 148 ס"מ, רוחב 130 ס"מ, גובה 100 ס"מ.'
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView281"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="₪ 1,099"
+            android:textColor="#E33D3D"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

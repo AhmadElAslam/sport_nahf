@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".smc">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/textView375"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="SMC OUTDOOR"
+            android:textColor="#3F51B5"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView265"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:srcCompat="@drawable/smcoutdoor" />
+
+        <TextView
+            android:id="@+id/textView376"
+            android:layout_width="match_parent"
+            android:layout_height="327dp"
+            android:text='שולחן טניס שולחן מקצועי נייד עמיד בחוץ.\nמשטח השולחן עשוי פולימר חזק ביותר מסוג SMC.\nמתאים למגרשים ושטחים פתוחים. \nהשולחן עמיד בפני גשם, שמש ורוח. \nגוף השולחן כולל הרשת עשויים מברזל מגולוון נגד החלדה. \nעובי מתכת : 40 מ"מ.\nמידות שולחן  2740x1525x760mm.\nמנגנון קיפול אוטומטי כפול המאפשר חצי קיפול למשחק עצמי וקיפול מלא. \n 4גלגלים כוללי ברקסים מסתובבים 360 מעלות בכל חצי שולחן. \nצבע פוליאסטר ייחודי 8 שכבות. \nרשת מקורית ממתכתכלולים באריזה.  \nמידות שולחן  2740x1525x760mm.'
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView377"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="₪ 1,999"
+            android:textColor="#3F51B5"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

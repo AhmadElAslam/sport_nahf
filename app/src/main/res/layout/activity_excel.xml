@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Excel">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="165dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView55"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/excelplus3" />
+
+            <ImageView
+                android:id="@+id/imageView56"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/excelplus1" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView57"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            app:srcCompat="@drawable/excelplus2" />
+
+        <TextView
+            android:id="@+id/textView43"
+            android:layout_width="match_parent"
+            android:layout_height="306dp"
+            android:text='מנוע שקט וחזק 6 כ"ס בשיא בעל 3 שנות אחריות ! \n מהירות 0-13 קמ"ש\n 8 בולמי זעזועים אקטיביים להגנה על הברכיים \n שיפוע מכני בעל מצבי עליה ומישור \n לחצני מהירות ולחצני הפעלה ועצירה בידיות המכשיר \n מד דופק מובנה הכולל חיישנים בידיות המכשיר \n מד אחוזי שומן \n צג מואר עם תצוגת מהירות, מרחק, זמן, שריפת קלוריות, דופק ואחוזי שומן. \n 12 תוכניות אימון מקצועיות לשיפור הכושר והפחתת משקל + תוכנית ידנית. \n מתאים למשתמשים עד 110 ק"ג\n אחריות: 3 שנים למנוע, 12 חודשים למכשיר\n מידות: \n פתוח - אורך 160 ס"מ, רוחב 70 ס"מ, גובה 123 ס"מ. \n מקופל - אורך 88 ס"מ, רוחב 70 ס"מ, גובה 137 ס"מ. \n מסילה - אורך 122 ס"מ, רוחב 42 ס"מ.'
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textView85"
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:gravity="center"
+            android:text="₪ 3,199"
+            android:textColor="#C61E1E"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

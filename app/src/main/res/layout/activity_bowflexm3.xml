@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bowflexm3">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView133"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/bowflexmaxtrainerm3a" />
+
+            <ImageView
+                android:id="@+id/imageView134"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/bowflexmaxtrainerm3b" />
+
+            <ImageView
+                android:id="@+id/imageView135"
+                android:layout_width="396dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/bowflexmaxtrainerm3c" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView143"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Bowflex Max Trainer M3"
+            android:textColor="#D83E3E"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView144"
+            android:layout_width="match_parent"
+            android:layout_height="408dp"
+            android:text='הוא תוכנן במיוחד לשרוף קלוריות באימון מהיר ויעיל, ללא בזבוז זמן. \n המכשיר היחיד המאפשר, ב-14 דקות בלבד, ליהנות מכל היתרונות של אימון קרדיו ארוך ובו זמנית לעבוד על השרירים בצורה יעילה הרבה יותר משאר המכשירים האירוביים.\n בדיקת מעבדה הוכיחה כי במהלך אימון של 14 דקות במקס טריינר ניתן לשרוף פי 2.5 יותר קלוריות לדקה.\n באימון של כחצי שעה תשרפו לפחות 600 קלוריות יותר מאשר במכשיר אליפטי.\n המקס טריינר מאפשר חיזוק הלב, הריאות ושיפור הסבולת\n המכשיר מאפשר למתאמן שליטה מלאה - מציג קצב שריפת קלוריות לדקה, שריפת קלוריות כוללת, מאפשר אחסון נתוני 2 מתאמנים. \n העומס על המפרקים באימון מקס טריינר נמוך בצורה משמעותית ביותר מהעומס בריצה.\n אימון 14 דקות אינטרוולים מגדיל את אפקט ה- AFTERBURN בו שריפת הקלוריות ממשיכה גם שעות לאחר האימון.\n אם אינכם מצליחים לפנות זמן לחדר הכושר או לפעילות אירובית ארוכה, המקס טריינר הוא המכשיר המושלם עבורכם.\nאחריות - שנה .\n אורך 117 ס"מ, רוחב 64 ס"מ, גובה 160 ס"מ. '
+            android:textColor="#000000"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/textView145"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="₪ 6,899"
+            android:textColor="#DC3535"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

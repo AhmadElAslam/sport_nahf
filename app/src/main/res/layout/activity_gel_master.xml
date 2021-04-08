@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GelMaster">
+
+    <LinearLayout
+        android:id="@+id/linearLayout10"
+        android:layout_width="409dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView60"
+            android:layout_width="61dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/gelmaster3" />
+
+        <ImageView
+            android:id="@+id/imageView62"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/gelmaster2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout11"
+        android:layout_width="409dp"
+        android:layout_height="230dp"
+        android:layout_marginTop="170dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout10">
+
+        <TextView
+            android:id="@+id/textView45"
+            android:layout_width="383dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text='מהירות 0-13 קמ"ש. \n שיפוע מכני: 3 מצבים\n צג  "5LCD  גדול ומואר עם שקע .USB \n חיבור AUX לטלפון. \n  22 תוכניות (12 מובנות, 3 אישיות, 3 יעדי אימון, 2 דופק, 1 שומן גוף, 1 מנואל).\n 4 גלגלים לניוד קל. \n מהירות 0-13 קמ"ש. \n שיפוע מכני: 3 מצבים\n צג  "5LCD  גדול ומואר עם שקע .USB \n חיבור AUX לטלפון. \n'
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/imageView59"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/gelmaster1" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="406dp"
+        android:layout_height="300dp"
+        android:text='22 תוכניות (12 מובנות, 3 אישיות, 3 יעדי אימון, 2 דופק, 1 שומן גוף, 1 מנואל).\n 4 גלגלים לניוד קל. \n מנוע שקט וחזק עם קירור אוויר! \n . לחצני שינוי מהירות בידיות המכשיר. \n חיישני דופק בידיות המכשיר. \n תצוגת נתוני מהירות, מרחק, זמן, שריפת קלוריות, דופק ואחוזי שומן. \n מתאים למשתמשים עד 110 ק"ג. \n מתקפל בקלות בעזרת בוכנה דו כיוונית \n  מנגנון SOFT-DROP לריכוך נחיתת המשטח בעת פתיחת הקיפול. \n  פין ביטחון לעצירת חירום ונעילה מפני ילדים. \n אחריות: שנה למכשיר, 3 שנים למנוע. \n מידות: \n פתוח - אורך 181 ס"מ, רוחב 75 ס"מ.  \n  מקופל - אורך 104 ס"מ, רוחב 75 ס"מ. \n מסילה - אורך 130 ס"מ, רוחב 46 ס"מ.'
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout11" />
+
+    <TextView
+        android:id="@+id/textView92"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="₪ 3,599"
+        android:textColor="#C82828"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView47" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

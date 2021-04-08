@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".a9101">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageView
+            android:id="@+id/imageView152"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            app:srcCompat="@drawable/a9101" />
+
+        <TextView
+            android:id="@+id/textView173"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="york 9101"
+            android:textColor="#DC3B3B"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView174"
+            android:layout_width="match_parent"
+            android:layout_height="379dp"
+            android:text='מתאים למשקולות חופשיים (צלחות) רגילים או אולימפיים. \nסמית משין: מוט למשקולות מובנה על מסילת ניקל בעל מעצורים המאפשרים עצירת חירום. \nהתקן מאפשר גם עבודת פרפר מקצועית ,כולל מתקן לעבודת יד קידמית. \nספה מתכווננת למצבי: משיפוע שלילי ועד 90 מעלות. \nפרופיל עבה וחזק ומסיבי ביותר. \nכני משקולות מצופי ניקל. \nמגוון ענק של תרגילים: פולי עליון, פולי תחתון, פרפר, חתירה, פושטי וכופפי ברך, אימוני ידיים, בטן, סקוואט ועוד... \nהספה נפרדת מהמתקן ויכולה לשמש גם לאימון משקולות נפרד.\nריפודים עבים מחומר מונע הזעה. \nאביזרים כלולים: מוט פולי ארוך וקצר, חבל ליד אחורית, ידיות פולי ורצועה לרגל.  \nמידות : אורך 224 ס"מ, רוחב 205 ס"מ, גובה 203 ס"מ.'
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView175"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="₪ 5,699"
+            android:textColor="#D13D3D"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

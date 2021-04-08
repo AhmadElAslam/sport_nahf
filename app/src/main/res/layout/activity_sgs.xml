@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sgs">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView163"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/sgs1" />
+
+            <ImageView
+                android:id="@+id/imageView164"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/sgs2" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView191"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="SGS-348Q "
+            android:textColor="#CD3535"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView192"
+            android:layout_width="match_parent"
+            android:layout_height="366dp"
+            android:text='מולטי טריינר + סמית משין.\nמולטי טריינר מושלם לעבודה מקצועית . \nהמכשיר כולל : \nספת לחיצה מקצועית ביותר, פולי עליון כולל 100 ק"ג משקולות ,פרפר, פולי תחתון וסמית משין כולל מוט . \nמתאים למתאמנים מקצועיים. \nעשרות תרגילים במכשיר אחד. \nאיכות עבודה של חדר כושר. \nהכלוב מאפשר גם עבודה חופשית עם מוט אולימפי (לא כלול). \nתוספות ללא תשלום נוסף: מכשיר לעבודת רגליים (פושטי כופפי ברך), כרית לעבודת יד קדמית (בייספס). \n\nמידות: אורך 250 ס"מ, רוחב 210 ס"מ, גובה 210 ס"מ. '
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView193"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="₪ 15,249"
+            android:textColor="#D62E2E"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gpcb329">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView239"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/gpcb328a" />
+
+            <ImageView
+                android:id="@+id/imageView240"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/gpcb329" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView327"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="GPCB-329"
+            android:textColor="#DC3535"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView328"
+            android:layout_width="match_parent"
+            android:layout_height="338dp"
+            android:text='ספה חופשית לעבודת יד קדמית מקצועית ומתאימה לחדר כושר או לבית פרטי.\nמתאימה למוט אולימפי. \nכרית תמיכה למרפקים רחבה נוחה ומתכווננת  ומתאימה לכל גובה מתאמן. \nפרופיל פלדה עבה ומסיבי. \nריפודים עבים ונוחים מחומר מונע הזעה.  \n\nמידות: אורך 104 ס"מ רוחב 79 ס"מ גובה 89 ס"מ.'
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView329"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="₪ 1,599"
+            android:textColor="#E63838"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Edison">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageView
+            android:id="@+id/imageView76"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            app:srcCompat="@drawable/edison1" />
+
+        <TextView
+            android:id="@+id/textView57"
+            android:layout_width="match_parent"
+            android:layout_height="388dp"
+            android:text='מהירות: 16- 0 קמ"ש\n מנוע שקט 7 כ"ס בשיא עם קירור אוויר\n שיפוע חשמלי קדמי 0-15% \n צג LCD  ענק המציג את כל נתוני האימון \n 8 תוכניות אימון מקצועיות לשיפור הכושר והפחתת משקל \n מד דופק מובנה בידיות המכשיר \n תצוגת נתוני מהירות, מרחק, זמן, שיפוע, דופק ושריפת קלוריות \n פין ביטחון לעצירת חרום ונעילה מפני ילדים \n מנגנון Soft-Drop לנחיתה רכה של המשטח בעת פתיחת הקיפול שילדה מסיבית, מתקפל בקלות, עיצוב חדיש וגימור בצבע מטאלי \n כולל מערכת של 4 גלגלים לניוד קל \n אחריות: 10 שנים למנוע, 12 חודשים למכשיר\n \n מידות: \n פתוח - אורך 179 ס"מ, רוחב 75 ס"מ  גובה 124 ס"מ \n מקופל - אורך 100 ס"מ, רוחב 75 ס"מ  גובה 150 ס"מ \n מסילה - אורך 126 ס"מ, רוחב 46 ס"מ'
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView98"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="₪ 4,599"
+            android:textColor="#D83535"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ct800">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView112"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ct8002" />
+
+            <ImageView
+                android:id="@+id/imageView113"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ct8001" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView82"
+            android:layout_width="match_parent"
+            android:layout_height="398dp"
+            android:text='מהירות מקסימלית עד 20 קמ"ש. \n  10 תכניות מחשב ממוחשבות הכוללות תוכניות בשינויי מהירות או שיפוע ו2 תוכניות בקרת דופק. \n מאוורר מובנה על הצג לקירור המתאמן בזמן האימון. \n  שיפוע חשמלי 0-15%. \n בולמי זעזועים לכל אורך המסילה . \n מערכת מירכוז אוטומטית למסילה . \n מד דופק מובנה ומד דופק אלחוטי ע"י רצועה . \n לחצני קיצור דרך להגעה מהירה למהירות או הזוית הרצויים . \n מערכת בקרת דופק השומרת על המתאמן להישאר בטווח הדופק הרצוי  . \n צג מואר 3 חלונות וחלון גדול להצגת גרף התוכנית . \n נתונים : מהירות, מרחק, זמן, קלוריות, שיפוע ודופק.  \n \n מידות: \n אורך 210 ס"מ רוחב 88 ס"מ גובה 143 ס"מ. \n משטח ריצה ענק אורך 153 ס"מ רוחב 55 ס"מ . '
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView113"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="17,799"
+            android:textColor="#D12F2F"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

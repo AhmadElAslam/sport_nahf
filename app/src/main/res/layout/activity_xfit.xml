@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".xfit">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageView
+            android:id="@+id/imageView167"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:srcCompat="@drawable/xfit1" />
+
+        <TextView
+            android:id="@+id/textView197"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="X-FIT"
+            android:textColor="#CD2F2F"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView198"
+            android:layout_width="match_parent"
+            android:layout_height="330dp"
+            android:text='פעולה שקטה וחלקה.\nמנגון כיוונון ל-8 דרגות קושי.\nמד דופק מובנה בידיות המכשיר. \nצג LCD דיגטלי. \nתצוגת זמן, מהירות, מרחק, דופק, קלוריות וסורק נתונים. \nמושב נוח בעל 2 אפשרויות כיוונון מהיר (אופקי ואנכי). \nמבנה חזק ויציב הכולל גלגל תנופה מסיבי. \nקיפול קומפקטי ונוח לאחסון קל. \nמשקל משתמש מרבי: 100 ק"ג.\n\nמידות: \nפתוח: אורך – 85 ס"מ, רוחב – 43 ס"מ, גובה – 110 ס"מ. \nמקופל: אורך – 28 ס"מ, רוחב – 43 ס"מ, גובה – 125 ס"מ.  '
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView199"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="₪ 799"
+            android:textColor="#D83131"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Malibu">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="158dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView83"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/malibu9" />
+
+            <ImageView
+                android:id="@+id/imageView80"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/malibu1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="213dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView82"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/malibu2" />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text='מנוע חזק 7 כ"ס\n מהירות מקסימלית 18 קמ"ש.  \n שיפוע חשמלי קדמי עד 15%.  \n לחצני מהירות ושיפוע בידיות. \n חיישני דופק מובנים בידיות המכשיר.  \n 24 תוכניות מחשב + סקלת מהירות. 24 תוכניות מחשב + סקלת מהירות. \n '
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView65"
+            android:layout_width="match_parent"
+            android:layout_height="323dp"
+            android:text='צג LCD משוכלל עם חלון ענק  בעל תאורה אחורית. \n מערכת שיכוך זעזועיים קידמיים כפולה.  \n לחצני מהירות מובנים (ניתנים לתיכנות) + שיפועים מובנים בצג.  \n תצוגת מהירות, מרחק, זמן, קלוריות, שיפוע,דופק ותוכניות.  \n פין ביטחון לעצירת חירום. \n מתקפל בקלות ונייד על 4 גלגלים. \n אחריות: 10 שנים למנוע, 12 חודשים למכשיר. \n משקל משתמש מקסימלי: 125 ק"ג\n \n מידות: \n פתוח - אורך 178 ס"מ, רוחב 78 ס"מ, גובה 140 ס"מ \n מקופל - אורך 88 ס"מ, רוחב 78 ס"מ, גובה 160 ס"מ  \n מסילת ריצה גדולה באורך 130 ס"מ ורוחב 46 ס"מ עם מירכוז אוטומטי.'
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView100"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:gravity="center"
+            android:text="₪ 4,799"
+            android:textColor="#D13636"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

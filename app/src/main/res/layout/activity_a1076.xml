@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".a1076">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageView
+            android:id="@+id/imageView213"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:srcCompat="@drawable/a1076" />
+
+        <TextView
+            android:id="@+id/textView273"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="YORK 1076"
+            android:textColor="#DF2E2E"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView274"
+            android:layout_width="match_parent"
+            android:layout_height="346dp"
+            android:text="ספה רב שימושית מבית YORK FITNESS ענק הכושר העולמי.\nכוללת מתקן לאימון יד קידמית. \nמושב מתכוונן לזוויות שונות. \nמערכת משענת הגב והכסא נעות על ציר ומאפשרות עבודת כפתיים עם כני המשקולות. \nמשענת הגב מתכווננת למצבים: משיפוע שלילי ועד 90 מעלות. \nכני המשקולות מתכווננים לגובה ומצופים ניקל. \nריפודים עבים מחומר מונע הזעה. \nמשענת הגב בעלת מבנה מיוחד השומר על חוליות העמוד. \nמתאים למוט בינוני ומעלה. \nמתאימה לתרגילים רבים: עבודה עם משקולות חופשיים,דחיקה, פושטי וכופפי רגליים, אימוני ידיים ועוד."
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView275"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="₪ 1,499"
+            android:textColor="#E83434"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

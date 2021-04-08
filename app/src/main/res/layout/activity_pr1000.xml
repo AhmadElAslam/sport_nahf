@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pr1000">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView149"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/pr1000a" />
+
+            <ImageView
+                android:id="@+id/imageView150"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/pr1000b" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView167"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="PR-1000"
+            android:textColor="#CD3A3A"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView168"
+            android:layout_width="match_parent"
+            android:layout_height="424dp"
+            android:text='אופציה של למעלה מ- 30 תרגילי כוח לבחירת.\n מוטות התנגדות גמישים המגיעים להתנגדות מירבית של 95 ק"ג.\n5 מוטות התנגדות בכל צד: מוט 2.25 ק"ג, 2 מוטות 4.5 ק"ג, מוט 13.5 ק"ג ומוט 22.5 ק"ג. \n שינוי ההתנגדות קל ונוח לכוונון באמצעות סוגר. \n7 תוכניות אימון מובנות. \n ספסל אימון מרופד המתכוונן בקלות\nכולל כריות רולר מרופדות לעמדת אימון רגליים.  \nמתקפל בקלות ונוח לאיחסון ! \nטכנולוגיית התנגדות מתקדמת.\nעבודה חלקה ושקטה יותר.\n חיסכון בכסף,זמן ומקום.\nהדגם בעל כיוונון עומס בטיחותי ומהיר.\nמידות:\nפתוח - אורך 208 ס"מ, רוחב 203 ס"מ, גובה 209 ס"מ.\nמקופל - אורך 113.5 ס"מ, רוחב 203 ס"מ, גובה 209 ס"מ.'
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView169"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="₪ 4,999"
+            android:textColor="#D13C3C"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

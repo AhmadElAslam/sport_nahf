@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".a9201">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageView
+            android:id="@+id/imageView217"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:srcCompat="@drawable/a9201" />
+
+        <TextView
+            android:id="@+id/textView285"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="YORK 9201"
+            android:textColor="#E63535"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView286"
+            android:layout_width="match_parent"
+            android:layout_height="319dp"
+            android:text="ספת לחיצת חזה אולימפית שטוחה תוצרת קנדה מבית YORK, המותג המוביל בעולם הכושר.\nספה מסוגננת בעיצוב וינטג' המיוצרת במפעלי YORK בקנדה. \nשלדה מסיבית וריפודים עבים ונוחים ברמת גימור גבוהה. \nמשענת גב עבה במיוחד לנוחות מקסימלית לכל מתאמן. \nמתאימה לתרגיל לחיצת חזה עם מוט אולימפי. \nיציבה במיוחד ומתאימה למתאמנים מתחילים ומתקדמים כאחד. \nברמה מקצועית - עומדת בתקני הרמת כוח בינלאומיים. \nמשקל העמסה מרבי: 450 ק&quot;ג\n\nמידות: אורך 150 ס&quot;מ, רוחב 133 ס&quot;מ, גובה 103 ס&quot;מ."
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView287"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="₪ 1,399"
+            android:textColor="#EA3333"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
